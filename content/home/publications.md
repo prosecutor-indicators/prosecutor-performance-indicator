@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Publications and Reports"
 subtitle = ""
 
 [content]
@@ -22,6 +22,7 @@ subtitle = ""
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
+  
 
   # Filter posts by a taxonomy term.
   [content.filters]
@@ -36,7 +37,11 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
+
+[[url_custom]]
+  name =  "Custom Link"
+  url = "http://www.example.org"
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -57,6 +62,7 @@ subtitle = ""
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+
   
 [advanced]
  # Custom CSS. 
@@ -66,6 +72,5 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+
+

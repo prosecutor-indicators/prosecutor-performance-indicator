@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Rose"
+
+# Optional Google font URL
+google_fonts = "Roboto|Roboto+Slab:400,700|Rubik:400,700"
+
+# Font families
+heading_font = "Rubik"
+body_font = "Roboto"
+nav_font = "Roboto"
+mono_font = "Roboto"

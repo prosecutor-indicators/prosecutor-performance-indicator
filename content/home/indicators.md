@@ -3,10 +3,10 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 35  # Order that this section will appear.
 
-title = "Projects"
-subtitle = ""
+title = "Prosecutorial Performance Indicators"
+subtitle = "Not every office has the capacity or desire to use each of the PPIs. Offices can select and modify PPIs to meet their needs, community interests, and data requirements. However, we strongly encourage office to adopt at least three PPIs from each of the nine topics."
 
 [content]
   # Page type to display. E.g. project.
@@ -21,17 +21,39 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
-  
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
-  
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+   [[content.filter_button]]
+     name = "All Indicators"
+     tag = "*"
+   [[content.filter_button]]
+     name = "Office Capacity"
+     tag = "Office Capacity"
+   [[content.filter_button]]
+     name = "Time Prioritization"
+     tag = "Time Prioritization"
+   [[content.filter_button]]
+     name = "Case Processing"
+     tag = "Case Processing"
+   [[content.filter_button]]
+     name = "Address Serious Crime"
+     tag = "Address Serious Crime"
+   [[content.filter_button]]
+     name = "Protect and Serve Victims"
+     tag = "Protect and Serve Victims"
+   [[content.filter_button]]
+     name = "Community Outreach"
+     tag = "Community Outreach"
+   [[content.filter_button]]
+     name = "Racial and Ethnic Differences"
+     tag = "Racial and Ethnic Differences"
+   [[content.filter_button]]
+     name = "Minimize Unnecessary Punitiveness"
+     tag = "Minimize Unnecessary Punitiveness"
+   [[content.filter_button]]
+     name = "Ethics and Integrity"
+     tag = "Ethics and Integrity"
+
+
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -74,4 +96,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
