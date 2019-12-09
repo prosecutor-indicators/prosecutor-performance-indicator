@@ -30,16 +30,13 @@ image:
 projects: []
 ---
 
+<iframe title="Caseload Distribution Across Bureaus" aria-label="Interactive line chart" id="datawrapper-chart-bHvOm" src="//datawrapper.dwcdn.net/bHvOm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
 
 | **Name of Indicator**    | **Caseload distribution across division/bureaus**                                                                                                                                                                                     |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Theme                    | Capacity & Efficiency                                                                                                                                                                                                                 |
 | Topic                    | Organizational & Staff Capacity                                                                                                                                                                                                       |
 | Indicator Number                       | 1.2                                                                                                                                                                                                                                   |
-| Name of Indicator        | Caseload Distribution Across Division/Bureaus                                                                                                                                                                                         |
 | How it's Measured | Comparison of caseload for each non-specialized felony division                                                                                                                                                                       |
 | Frequency                | 30 days                                                                                                                                                                                                                               |
 | Rationale For Measuring Indicator                | An equitable distribution of cases across similar divisions enables prosecutors to give each case the same initial consideration. It additionally contributes to staff morale by ensuring prosecutors are assigned similar workloads. |
-
-
-<iframe src="https://public.tableau.com/views/MilwaukeeEvictionFilings/EvictionsFiled?:showVizHome=no&:embed=true"  width="700" height="700"></iframe>
